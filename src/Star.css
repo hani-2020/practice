@@ -1,0 +1,99 @@
+#real-turtle{
+  border: 2px groove black;
+  border-radius: 1rem;
+  height: 75vh;
+  width: 50vw;
+  background-color: white;
+  margin-left: 2rem;
+}
+
+.stargen_title{
+  font-size: 2rem;
+  color: aliceblue;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  text-decoration-line: underline;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+label{
+  font-size: 1.5rem;
+  color: aliceblue;
+  margin-left: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+input{
+  margin-top: 1rem;
+  margin-left: 2rem;
+  background-color: black;
+  border-color: white;
+  border-radius: 0.5rem;
+  border-width: 0.2rem;
+  padding-right: 0.01rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 15rem;
+  height: 1rem;
+  color: aliceblue;
+  text-align: left;
+  font-size: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+button{
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 4rem;
+  height: 2rem;
+  background-color: #3500d3;
+  color: aliceblue;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+button:hover{
+  color: black;
+  cursor: pointer;
+}
+
+.first_images{
+  display: flex;
+  align-items: center;
+}
+
+.first_images img{
+  height: 25rem;
+  width: 25rem;
+  margin-left: 2rem;
+}
+
+.second_images{
+  display: flex;
+  align-items: center;
+}
+
+.second_images img{
+  height: 25rem;
+  width: 25rem;
+  margin-left: 2rem;
+}
+
+.math{
+  color: aliceblue;
+  margin-left: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+}
+
+.stargen_title_smaller{
+  color: aliceblue;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  text-decoration-line: underline;
+}
+

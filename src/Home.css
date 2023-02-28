@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+header{
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    text-decoration-line: underline;
+}
+
+p{
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.75rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.gif img{
+    display: block;
+    margin-left: 40rem;
+}

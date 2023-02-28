@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import './Nav.css';
+import './Star.css';
+import Navbar from './Navbar';
+import {Route, Routes} from "react-router-dom"
+import Stargen from './Stargen';
+import Home from './Home';
+import Coolweb from './Coolweb';
+import About from './About';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return (<>
+    <Navbar/>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/star-gen" element={<Stargen/>}/>
+      <Route path="/cool-web" element={<Coolweb/>}/>
+      <Route path="/about" element={<About/>}/>
+    </Routes>
+    </>
   );
 }
 
