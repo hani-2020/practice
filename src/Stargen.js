@@ -27,8 +27,7 @@ const Stargen = () => {
             turtle.left(180-(180/input))
             turtle.start()
         }
-    }
-    else{
+    } else{
          alert("enter positive odd number greater than or equal to 5")
     }
   };
